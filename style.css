@@ -1,0 +1,102 @@
+#welcome {
+    position: absolute;
+    height: 800px;
+    background: linear-gradient(#afc954 0%, #02fae1 100%);
+    width: 100%;
+    display: table;
+    color: white;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -10;
+}
+
+.paralax_inner {
+    display: table-cell;
+    position: relative;
+    text-align: center;
+
+
+
+}
+
+.WWW {
+
+    width: 175px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+    margin-top: 100px;
+
+
+
+}
+
+
+
+
+
+body {
+    margin: 0;
+    padding-top: 800;
+text-align: center;
+
+}
+
+#bio {
+    padding: 50px;
+    text-align: center;
+    font-size: 42px;
+
+
+
+
+
+}
+.line {
+    height: 6px;
+    width: 70px;
+    background-color: black;
+    margin: 8px auto;
+}
+p {
+    max-width: 450px;
+    margin: 25px auto;
+    font-size: 17px;
+    line-height: 2;
+}
+
+
+.menu {
+    list-style: none;
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    cursor: pointer;
+    z-index: 10; 
+}
+
+.links{
+   float: left;
+    color: #fff;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    font-size: 30px;
+    font-family: 'Sacramento', cursive
+    
+}
+.links:hover{
+background-color: limegreen;    
+    
+}
+
+a{
+   text-decoration:none;
+    
+    
+    
+    
+    
+}
